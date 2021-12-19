@@ -1,0 +1,117 @@
+\twocolumn
+\fontsize{9pt}{9pt}\selectfont
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setcounter{page}{59}
+
+{\bf 5.} Определить угол треугольника,
+в котором медиана, биссектриса и
+высота делят угол на четыре равные
+части.
+
+\begin{center}
+    {\textcolor{red}{\bf\large Разбор задач первого тура}}
+\end{center}
+
+{\bf 1.} Ясно, что каждое из восьми
+срезаемых у куба по углам тел является
+правильной треугольной пирамидой
+с прямыми углами между
+боковыми ребрами (рис. 1). Если
+
+\begin{figure}[h]
+    \noindent\centering{
+        \includegraphics[width=0.7\linewidth]{../pict/1.png}
+        \label{p1}
+    }\\
+    \noindent\centering{Рис. 1.}
+    %caption{}
+\end{figure}
+
+обозначить сторону основания пирамиды
+через b, то
+$AD=\frac{b\sqrt{3}}{2}$,
+$OD=\frac{b\sqrt{3}}{6}$,
+$CD=\frac{b}{2}$,
+и тогда по теореме
+Пифагора высота пирамиды
+$EO=\frac{b\sqrt{6}}{6}$.
+Площадь основания равна
+$\frac{b^2\sqrt{3}}{4}$.
+
+\begin{figure}[b]
+    \noindent\centering{
+        \includegraphics[height=28mm,width=36mm]{../pict/2a.png}
+    }\\
+    \noindent\centering{Рис. 2а.}
+\end{figure}
+
+Поэтому объем такой пирамиды равен
+$\frac{b^3\sqrt{2}}{24}$,
+а объем тела,
+получающегося из куба срезом весьми
+таких пирамд, равен
+\begin{equation}
+    \label{eq:V1}
+    a^3-\frac{b^3\sqrt{2}}{3}.
+\end{equation}
+
+Так как по условию задачи от
+граней куба должны остаться
+правильные многоугольники, то
+решений два. Могут быть восьмиугольники
+или квадраты (рис. 2 {\it а}, {\it б}).
+
+В первом случае
+$b=a(\sqrt{2}-1)$,
+и тогда из~\eqref{eq:V1} после преобразований
+получаем
+$V=\frac{7a^3(\sqrt{2}-1)}{3}$.
+
+Во втором случае
+$b=\frac{a\sqrt{2}}{2}$,
+и тогда
+из~\eqref{eq:V1} находим
+$V=\frac{5a^3}{6}$.
+
+Заметим, что лишь 20\% школьников
+нашли оба решения задачи.
+Остальные находили только одно
+решение. При этом предпочтения не
+было для кого-либо одного из двух
+многогранников --- каждый получил
+приблизительное равное число голосов.
+
+\begin{figure}[b]
+    \noindent\centering{
+        \includegraphics[height=28mm,width=36mm]{../pict/2b.png}
+    }\\
+    \noindent\centering{Рис. 2б.}
+\end{figure}
+
+\begin{center}
+    \tiny
+    \begin{tabular}{|c|c|c|c|c|c|c|}    \hline
+        Фигура &
+        \begin{sideways} Ко\-роль \end{sideways} &
+        \begin{sideways} Ферзь \end{sideways} &
+        \begin{sideways} Ладья \end{sideways} &
+        \begin{sideways} Слон \end{sideways} &
+        \begin{sideways} Конь \end{sideways} &
+        \begin{sideways} Пеш\-шка \end{sideways} \\ \hline
+        Число & & & & & & \\
+        внешней & 9 & 5 & 8 & 8 & 12 & 32 \\  
+        устойчивости & & & & & & \\ \hline
+        Число & & & & & & \\
+        внутренней & 16 & 8 & 8 & 14 & 32 & 32 \\
+        устойчивости & & & & & & \\ \hline
+    \end{tabular}
+    \noindent\centering{\small Табл. 1.}\\
+\end{center}
+
+По причине требований к <<лабе>>
+пришлось добавить таблицу\footnote[1]{Таблица со страницы 51.}
+и сноску.
